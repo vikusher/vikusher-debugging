@@ -98,7 +98,8 @@ function setup() {
   attempts = 0;
 
   // Enable the input and submit button
-  submitButton.disabeld = false;
+  submitButton.disabled = false;
+  // Fixed - typo: submitButton.disabeld instead of submitButton.disabled
   guessInput.disabled = false;
   // (Fixed) also added guessInput.value = ''; in setup() to clear the input field
   // when the game resets (this ensures a fresh start each time).
